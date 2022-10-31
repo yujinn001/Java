@@ -13,6 +13,7 @@ public class 문제9 {
 //			if(arr[i]==60)
 //			{
 //				System.out.println("값이 60인 곳 >> "+ i);
+//				break;
 //			}
 //		}
 		int i =0;
