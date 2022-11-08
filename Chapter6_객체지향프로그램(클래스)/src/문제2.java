@@ -1,4 +1,4 @@
-class Food{
+class Food1{
 	String[] poster = new String[5];  //클래스 안에는 배열이 들어갈 수 있다
 	String title;
 	double score;

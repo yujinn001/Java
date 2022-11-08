@@ -1,4 +1,4 @@
-class Shop{
+class Shop1{
 	String poster;
 	String number;
 	String webSite;
