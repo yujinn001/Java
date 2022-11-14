@@ -38,7 +38,7 @@ package com.sist.main3;
 class A
 {
 	int a,b,c;
-	public A()11
+	public A()
 	{
 		this.a=10; // 지역변수 => 멤버변수
 		// 충돌이 없는 상태면 this. 생략이 가능 ==> 지역변수나 매개변수가 우선순위
