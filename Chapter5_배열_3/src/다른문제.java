@@ -30,21 +30,21 @@ public class 다른문제 {
 			total[i]=kor[i]+eng[i]+math[i];
 			avg[i]=total[i]/3.0;
 		}
-		for(int i =0; i<3; i++)
-		{
-			rank[i]=1;
-			for(int j =0; j<3; j++)
-			{
-				if(total[i]<total[j])
-				{
-					rank[i]++;
-				}
-			}
-		}
-		for(int i =0; i<3; i++)
-		{
-			System.out.printf("%-5d%-5d%-5d%-7d%-7.2f%-5d\n",kor[i],eng[i],math[i],total[i],avg[i],rank[i]);
-		}
+//		for(int i =0; i<3; i++)
+//		{
+//			rank[i]=1;
+//			for(int j =0; j<3; j++)
+//			{
+//				if(total[i]<total[j])
+//				{
+//					rank[i]++;
+//				}
+//			}
+//		}
+//		for(int i =0; i<3; i++)
+//		{
+//			System.out.printf("%-5d%-5d%-5d%-7d%-7.2f%-5d\n",kor[i],eng[i],math[i],total[i],avg[i],rank[i]);
+//		}
 		
 	}
 
