@@ -33,10 +33,10 @@ class ReplyBoard
 //		System.out.println("ReplyBoard : reply Call... : 댓글 올리기");
 //	}
 	{
-		public void reply()
-		{
-			System.out.println("ReplyBoard : update Call... : 게시물 수정");
-		}
+//		public void reply()
+//		{
+//			System.out.println("ReplyBoard : update Call... : 게시물 수정");
+//		}
 	}; // extends없이 오버라이딩 ==> 익명의 클래스
 	public void reply()
 	{
@@ -50,9 +50,9 @@ public class MainClass_포함_1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ReplyBoard rb =new ReplyBoard();
-		rb.board.list();
-		rb.board.insert();
-		rb.board.update();
+//		rb.board.list();
+//		rb.board.insert();
+//		rb.board.update();
 		rb.reply();
 	}
 
