@@ -82,6 +82,14 @@ package com.sist.exception2;
  *                    라이브러리
  *                    -------
  *                      java.lang.*
+ *                          Object, String, StringBuffer, Wrapper, Math, System
+ *                                                        --------
+ *                                                        데이터형을 클래스화
+ *                                                        int ==> Integer
+ *                                                        double ==> Double
+ *                                                        boolean ==> Boolean
+ *                                                        byte ==> Byte1234
+ *                                                        
  *                      java.util.*
  *                      java.io.*
  *                      java.text.*
