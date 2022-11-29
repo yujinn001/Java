@@ -1,7 +1,7 @@
 package com.sist.io2;
 // FileReader에 대한 보조 스트림 => BufferedReader는 많이 사용되는 클래스 => 한줄씩 읽을 수 있다
 // 사용자의 입력값을 받을 때 => Scanner(X), BufferedReader
-import java.util.*;
+import java.util.*; 
 import java.io.*;
 public class MainClass_BufferedReader {
 
