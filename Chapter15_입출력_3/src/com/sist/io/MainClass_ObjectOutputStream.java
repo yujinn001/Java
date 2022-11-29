@@ -120,6 +120,7 @@ class School
 			ObjectInputStream ois = 
 					new ObjectInputStream(new FileInputStream("c:\\java_data\\student.txt"));
 			list = (ArrayList<Student>)ois.readObject(); // Object 여서 강제 형변환
+			// 컬렉션의 형변환 => 제네릭스까지 포함
 			ois.close();
 		}catch(Exception ex) {ex.printStackTrace();}
 		return list;
